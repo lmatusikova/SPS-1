@@ -306,6 +306,7 @@ In Java, all methods are virtual by default, so until they are not marked as `fi
  - http://www.tutorialsteacher.com/linq/linq-method-syntax [LINQ methods]
  - https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/var [var]
  - https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/checked [checked]
+ - https://msdn.microsoft.com/en-us/library/z41h7fat.aspx [useful code snippets in Visual Studio]
 
 C# and network programming
 =====
@@ -437,4 +438,4 @@ Hint: https://msdn.microsoft.com/en-us/library/bb358946(v=vs.110).aspx
 Write a program that reads two integers from console, computes their sum and writes it back to the console. In case the sum overflows integer, show an error message instead of the sum.
 
 ### Task 4
-Edit server program so that it sends the response only to `GET` request. Return `400 Bad Request` response for all other types of requests.
+Edit server program so that it sends the response only to `GET` request. Return `400 BAD` response for all other types of requests.
