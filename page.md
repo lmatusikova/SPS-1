@@ -48,7 +48,6 @@ Some C# features
 ### Properties
 A property is a member that provides a flexible mechanism to read, write, or compute the value of a private field. Properties can be used as if they are public data members, but they are actually special methods called *accessors*. This enables data to be accessed easily and still helps promote the safety and flexibility of methods.
 
-####Example:
 Class *Date* with property *Month*:
 
     public class Date
@@ -85,14 +84,12 @@ We access *Month* as if it was a public variable:
 
 ### Exceptions
 
-There are no checked exceptions in C#, so there is nothing like *throws* keyword as in Java. If a programmer wants to know what exceptions are thrown by some method (so that he can take care of them in try-catch block) he has to look into documentation.
+There are no checked exceptions in C#, so there is nothing like `throws` keyword as in Java. If a programmer wants to know what exceptions are thrown by some method (so that he can take care of them in try-catch block) he has to look into documentation.
 
 ### Structs
 
 A struct type is a **value** type that is typically used to encapsulate small groups of related variables, like coordinates of point or RGB elements of colour. Structs can also contain constructors, methods, properties etc, although if several such members are required, you should consider making your type a class instead.
 The main difference between struct and object is that struct is value type and does not support inheritance.
-
-####Example:
 
     public struct CoOrds
     {
@@ -134,8 +131,6 @@ The main difference between struct and object is that struct is value type and d
 ### Indexers
 
 An Indexer is a special type of property that allows a class or structure to be accessed the same way as array for its internal collection.
-
-#### Example:
 
     class StringDataStore
     {
@@ -243,7 +238,7 @@ Instead of string queries, we can also use methods:
 `var` is a keyword for implicitly typed variable. An implicitly typed local variable is strongly typed just as if you had declared the type yourself, but the compiler determines the type. The following two declarations are functionally equivalent:
 
     var i = 10; // implicitly typed  
-    int i = 10; //explicitly typed 
+    int i = 10; // explicitly typed 
 
 #### checked
 The `checked` keyword is used to explicitly enable overflow checking for integral-type arithmetic operations and conversions.
@@ -263,10 +258,10 @@ The following example causes compiler error CS0220 because 2147483647 is the max
 
    If the previous sum is attempted in a checked environment, an OverflowException error is raised.
     
-    // Checked expression.
+    // checked expression
     Console.WriteLine(checked(2147483647 + ten));
     
-    // Checked block.
+    // checked block
     checked
     {
         int i3 = 2147483647 + ten;
@@ -274,7 +269,7 @@ The following example causes compiler error CS0220 because 2147483647 is the max
     }
 
 #### virtual
-In Java, all methods are virtual by default, so until they are not marked as `final`, they can be overriden. In C#, they are final by default and we have to add`virtual` keyword to enable overriding.
+In Java, all methods are virtual by default, so until they are not marked as `final`, they can be overriden. In C#, they are final by default and we have to add `virtual` keyword to enable overriding.
 
     public virtual double Area()   
     {  
