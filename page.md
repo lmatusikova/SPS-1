@@ -430,7 +430,13 @@ Use example for LINQ syntax and change it so it only selects students whose aver
 Hint: https://msdn.microsoft.com/en-us/library/bb358946(v=vs.110).aspx
 
 ### Task 3
-Write a program that reads two integers from console, computes their sum and writes it back to the console. In case the sum overflows integer, show an error message instead of the sum.
+Write a program that reads two integers from console, computes their sum and writes it back to the console. In case the sum overflows integer, show an error message instead of the sum. Make sure that program doesn't end with the exception.
 
 ### Task 4
-Edit server program so that it sends the response only to `GET` request. Return `400 BAD` response for all other types of requests.
+Edit `Server` program so that it sends the response only to `GET` request. Return `400 BAD` response for all other types of requests.
+
+### Task 5
+Write a program that finds out and displays IP address(es) of your computer.
+
+### Task 6
+Edit `Server` program so that it outputs `Client`'s port number to console.
