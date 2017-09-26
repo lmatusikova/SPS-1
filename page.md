@@ -17,14 +17,14 @@
 
 ### .NET Framework
 
- - released in 2002
+ - released in 2002, current version 4.7 (May 2017)
  - proprietary, owned by Microsoft
  - supports only Windows, both for development and as a running environment
  - loads of functions, packages and libraries
 
 ### .NET Core
 
- - released in 2016
+ - released in 2016, current version 2.0 (August 2017)
  - open source
  - cross-platform support
  - contains core functions, but not everything
@@ -243,7 +243,7 @@ Instead of string queries, we can also use methods:
 #### checked
 The `checked` keyword is used to explicitly enable overflow checking for integral-type arithmetic operations and conversions.
 
-The following example causes compiler error CS0220 because 2147483647 is the maximum value for integers. 
+The following example causes compiler error because 2147483647 is the maximum value for integers. 
 
     int i1 = 2147483647 + 10;
 
@@ -430,7 +430,7 @@ Use example for LINQ syntax and change it so it only selects students whose aver
 Hint: https://msdn.microsoft.com/en-us/library/bb358946(v=vs.110).aspx
 
 ### Task 3
-Write a program that reads two integers from console, computes their sum and writes it back to the console. In case the sum overflows integer, show an error message instead of the sum. Make sure that program doesn't end with the exception.
+Write a program that reads two integers from console (we suppose that input values are in integer range), computes their sum and writes it back to the console. In case the sum overflows integer, show an error message instead of the sum. Make sure that program doesn't end with the exception.
 
 ### Task 4
 Edit `Server` program so that it sends the response only to `GET` request. Return `400 BAD` response for all other types of requests.

@@ -23,7 +23,6 @@ namespace Server
                 try
                 {
                     string request = sr.ReadLine();
-                    Console.WriteLine(request);
                     string[] tokens = request.Split(' ');
                     string page = tokens[1];
 
@@ -52,6 +51,10 @@ namespace Server
                     sw.WriteLine("<h1>ERROR</h1>");
                     sw.WriteLine("<p>The page was not found.</p>");
                     sw.Flush();
+                }
+                finally
+                {
+                    client.Close();
                 }
             }
         }
