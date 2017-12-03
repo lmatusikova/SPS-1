@@ -136,12 +136,16 @@ Exercises
 =====
 
 ### Task 1
+Upravte predpripravený kód tak, aby sa po kliknutí na štvorček objavilo 'X' vo štvorčeku.
+https://jsfiddle.net/cw8p4fof/
 TODO
 
 ### Task 2
+Upravte kód v Task 1 tak, aby sa po kliknutiach na štvorčeky striedali symboli 'X', 'O'.
 TODO
 
 ### Task 3
+Upravte kód v Task 2 tak, aby sa hra skončila, keď budú na priamke 3 znaky 'X' alebo 'O'.
 TODO
 
 --------
