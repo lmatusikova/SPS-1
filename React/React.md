@@ -68,7 +68,7 @@ Result:
 
 ### Properties
 
-*props* (short for properties) are a component's configuration
+*props* (short for properties) are component's configuration
 
 - they are received from above and immutable
 - component cannot change its props
@@ -80,7 +80,7 @@ Example: https://jsfiddle.net/reactjs/69z2wepo/
 
 The *state* starts with a default value when a component mounts and then is changed in time (mostly because of user events) - every time the state is changed, component automatically re-renders. 
 
-- serializable representation of one point in time - a snapshot.
+- serializable representation of one point in time - a snapshot
 - component manages its own state internally
 - does nothing with the state of its children - state is private
 
@@ -118,9 +118,9 @@ This method is called when a component is being removed from the DOM:
 
 1. IDE
 - [Visual Studio Code](https://code.visualstudio.com/)
-- online editory:
-	-- [Plunker](https://plnkr.co/)
-	-- [Stackblitz](https://stackblitz.com/)
+- online editors:
+  * [Plunker](https://plnkr.co/)
+  * [Stackblitz](https://stackblitz.com/)
 2. [Node.js](https://nodejs.org/en/download/)
 3. ([a boilerplate](https://www.andrewhfarmer.com/starter-project/))
 4. ([Typescript](https://www.typescriptlang.org/))
@@ -141,7 +141,7 @@ https://jsfiddle.net/cw8p4fof/
 TODO
 
 ### Task 2
-Upravte kód v Task 1 tak, aby sa po kliknutiach na štvorčeky striedali symboli 'X', 'O'.
+Upravte kód v Task 1 tak, aby sa po kliknutiach na štvorčeky striedali symboly 'X', 'O'.
 TODO
 
 ### Task 3
