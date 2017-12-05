@@ -141,7 +141,7 @@ Change prearranged code in a way, that after a click on a square, the square wil
 https://jsfiddle.net/cw8p4fof/
 
 ### Task 2
-Change the code in task 1 to get letters 'X', 'O' in turns.
+Change the code in task 1 to get letters 'X', 'O' in turns. (Also change status e.g. whom's move)
 
 ### Task 3
 Change the code in task 2 to find out the end of game e.g. 3 letters 'X' or 'O' are on one line.
