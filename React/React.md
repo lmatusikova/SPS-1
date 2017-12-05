@@ -136,17 +136,16 @@ Exercises
 =====
 
 ### Task 1
-Upravte predpripravený kód tak, aby sa po kliknutí na štvorček objavilo 'X' vo štvorčeku.
+Change prearranged code in a way, that after a click on a square, the square will display letter 'X' inside.
+
 https://jsfiddle.net/cw8p4fof/
-TODO
 
 ### Task 2
-Upravte kód v Task 1 tak, aby sa po kliknutiach na štvorčeky striedali symboly 'X', 'O'.
-TODO
+Change the code in task 1 to get letters 'X', 'O' in turns.
 
 ### Task 3
-Upravte kód v Task 2 tak, aby sa hra skončila, keď budú na priamke 3 znaky 'X' alebo 'O'.
-TODO
+Change the code in task 2 to find out the end of game e.g. 3 letters 'X' or 'O' are on one line.
+
 
 --------
 ## Appendix: Testing web applications
