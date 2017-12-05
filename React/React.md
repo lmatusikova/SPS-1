@@ -1,6 +1,7 @@
 ﻿React
 ========
 
+ - [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f)
  - JavaScript framework, one from big triple ([Angular](https://angularjs.org/), [Vue](https://vuejs.org/))
  - first deployed on 2011, [open-sourced](https://github.com/facebook/react) in 2013
  - current version 16 (Sep 2017) - [licensing issues](https://thenextweb.com/dd/2017/09/25/facebook-re-licenses-react-mit-license-developer-backlash/)
