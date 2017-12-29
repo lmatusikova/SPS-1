@@ -1,6 +1,7 @@
 ﻿React
 ========
 
+ - [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f)
  - JavaScript framework, one from big triple ([Angular](https://angularjs.org/), [Vue](https://vuejs.org/))
  - first deployed on 2011, [open-sourced](https://github.com/facebook/react) in 2013
  - current version 16 (Sep 2017) - [licensing issues](https://thenextweb.com/dd/2017/09/25/facebook-re-licenses-react-mit-license-developer-backlash/)
@@ -68,7 +69,7 @@ Result:
 
 ### Properties
 
-*props* (short for properties) are a component's configuration
+*props* (short for properties) are component's configuration
 
 - they are received from above and immutable
 - component cannot change its props
@@ -80,7 +81,7 @@ Example: https://jsfiddle.net/reactjs/69z2wepo/
 
 The *state* starts with a default value when a component mounts and then is changed in time (mostly because of user events) - every time the state is changed, component automatically re-renders. 
 
-- serializable representation of one point in time - a snapshot.
+- serializable representation of one point in time - a snapshot
 - component manages its own state internally
 - does nothing with the state of its children - state is private
 
@@ -118,9 +119,9 @@ This method is called when a component is being removed from the DOM:
 
 1. IDE
 - [Visual Studio Code](https://code.visualstudio.com/)
-- online editory:
-	-- [Plunker](https://plnkr.co/)
-	-- [Stackblitz](https://stackblitz.com/)
+- online editors:
+  * [Plunker](https://plnkr.co/)
+  * [Stackblitz](https://stackblitz.com/)
 2. [Node.js](https://nodejs.org/en/download/)
 3. ([a boilerplate](https://www.andrewhfarmer.com/starter-project/))
 4. ([Typescript](https://www.typescriptlang.org/))
@@ -136,13 +137,17 @@ Exercises
 =====
 
 ### Task 1
-TODO
+Change prearranged code in a way, that after a click on a square, the square will display letter 'X' inside.
+
+https://jsfiddle.net/cw8p4fof/
 
 ### Task 2
-TODO
+Change the code in task 1 to get letters 'X', 'O' in turns. (Also change status e.g. whom's move)
+Hint on how to manage state changes between parent and child components: https://ourcodeworld.com/articles/read/409/how-to-update-parent-state-from-child-component-in-react 
 
 ### Task 3
-TODO
+Change the code in task 2 to find out the end of game e.g. 3 letters 'X' or 'O' are on one line.
+
 
 --------
 ## Appendix: Testing web applications
